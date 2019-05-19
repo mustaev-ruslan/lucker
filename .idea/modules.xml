@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_main.iml" group="SpringDataFlowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_test.iml" group="SpringDataFlowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/download.iml" filepath="$PROJECT_DIR$/.idea/modules/download.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/download_main.iml" filepath="$PROJECT_DIR$/.idea/modules/download_main.iml" group="download" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/download_test.iml" filepath="$PROJECT_DIR$/.idea/modules/download_test.iml" group="download" />
+      <module fileurl="file://$PROJECT_DIR$/lucker.iml" filepath="$PROJECT_DIR$/lucker.iml" />
+    </modules>
+  </component>
+</project>

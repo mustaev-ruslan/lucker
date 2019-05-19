@@ -4,5 +4,11 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="download_main" target="1.8" />
+      <module name="download_test" target="1.8" />
+      <module name="SpringDataFlowServer_main" target="1.8" />
+      <module name="SpringDataFlowServer_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
