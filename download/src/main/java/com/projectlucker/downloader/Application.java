@@ -1,21 +1,23 @@
-package com.projectlucker.lucker;
+package com.projectlucker.downloader;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.task.configuration.EnableTask;
-import org.springframework.cloud.task.configuration.TaskProperties;
 import org.springframework.cloud.task.listener.annotation.AfterTask;
 import org.springframework.cloud.task.repository.TaskExecution;
-import org.springframework.context.annotation.Bean;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
 
 @EnableTask
 @SpringBootApplication
+@Configuration
+@EnableConfigurationProperties(DownloaderProperties.class)
 public class Application {
 
     public static void main(String[] args) {
         System.out.println("Start main");
-        SpringApplication.run(Application.class, args);
+        ConfigurableApplicationContext context =    SpringApplication.run(Application.class, args);
         try {
             Thread.sleep(20000);
         } catch (InterruptedException e) {

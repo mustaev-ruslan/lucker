@@ -5,6 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_main.iml" group="SpringDataFlowServer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringDataFlowServer_test.iml" group="SpringDataFlowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.projectlucker-SpringDataFlowServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.projectlucker-SpringDataFlowServer_main.iml" group="SpringDataFlowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.projectlucker-SpringDataFlowServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.projectlucker-SpringDataFlowServer_test.iml" group="SpringDataFlowServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/control.iml" filepath="$PROJECT_DIR$/.idea/modules/control.iml" group="control" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/control/control_main.iml" filepath="$PROJECT_DIR$/.idea/modules/control/control_main.iml" group="control" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/control/control_test.iml" filepath="$PROJECT_DIR$/.idea/modules/control/control_test.iml" group="control" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/download.iml" filepath="$PROJECT_DIR$/.idea/modules/download.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/download_main.iml" filepath="$PROJECT_DIR$/.idea/modules/download_main.iml" group="download" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/download_test.iml" filepath="$PROJECT_DIR$/.idea/modules/download_test.iml" group="download" />

@@ -1,11 +1,13 @@
-package com.projectlucker.lucker;
+package com.projectlucker.downloader;
 
-import com.projectlucker.lucker.entity.Chart;
-import com.projectlucker.lucker.entity.Timeframe;
-import com.projectlucker.lucker.repository.ChartRepository;
-import com.projectlucker.lucker.repository.TimeframeRepository;
+import com.projectlucker.downloader.entity.Chart;
+import com.projectlucker.downloader.entity.Timeframe;
+import com.projectlucker.downloader.repository.ChartRepository;
+import com.projectlucker.downloader.repository.TimeframeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -18,10 +20,12 @@ class DownloadCommandLineRunner implements CommandLineRunner {
 
     private final TimeframeRepository timeframeRepository;
 
+    private final DownloaderProperties downloaderProperties;
 
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Start init");
+        System.out.println(downloaderProperties.getTickers());
 
         Timeframe timeframe = new Timeframe();
         timeframe.setUnit("m");

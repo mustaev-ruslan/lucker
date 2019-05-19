@@ -1,4 +1,4 @@
-package com.projectlucker.lucker.entity;
+package com.projectlucker.downloader.entity;
 
 import lombok.Data;
 

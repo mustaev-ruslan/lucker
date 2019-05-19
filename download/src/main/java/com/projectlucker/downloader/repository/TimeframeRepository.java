@@ -1,6 +1,6 @@
-package com.projectlucker.lucker.repository;
+package com.projectlucker.downloader.repository;
 
-import com.projectlucker.lucker.entity.Timeframe;
+import com.projectlucker.downloader.entity.Timeframe;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

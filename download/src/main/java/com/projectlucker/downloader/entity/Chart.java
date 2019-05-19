@@ -1,10 +1,9 @@
-package com.projectlucker.lucker.entity;
+package com.projectlucker.downloader.entity;
 
 import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.time.Period;
 import java.util.UUID;
 
 @Data
