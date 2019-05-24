@@ -1,4 +1,4 @@
-package com.projectlucker.downloader.batch;
+package com.projectlucker.downloader.sourcedownloader;
 
 public class SourceDownloaderException extends Exception {
 

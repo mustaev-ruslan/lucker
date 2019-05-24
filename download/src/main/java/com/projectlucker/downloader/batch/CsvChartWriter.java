@@ -1,10 +1,10 @@
 package com.projectlucker.downloader.batch;
 
+import com.google.common.io.Files;
 import com.projectlucker.downloader.entity.Chart;
+import com.projectlucker.downloader.model.DownloadData;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
-
-import com.google.common.io.Files;
 
 import java.io.File;
 import java.time.format.DateTimeFormatter;

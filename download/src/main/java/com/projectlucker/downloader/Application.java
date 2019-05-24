@@ -7,7 +7,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.cloud.task.configuration.EnableTask;
 import org.springframework.cloud.task.listener.annotation.AfterTask;
 import org.springframework.cloud.task.repository.TaskExecution;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.retry.annotation.EnableRetry;
 

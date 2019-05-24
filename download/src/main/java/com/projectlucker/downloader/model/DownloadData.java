@@ -1,4 +1,4 @@
-package com.projectlucker.downloader.batch;
+package com.projectlucker.downloader.model;
 
 import com.projectlucker.downloader.entity.Chart;
 import lombok.Value;

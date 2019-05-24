@@ -2,6 +2,9 @@ package com.projectlucker.downloader.batch;
 
 import com.projectlucker.downloader.DownloaderProperties;
 import com.projectlucker.downloader.entity.Chart;
+import com.projectlucker.downloader.model.DownloadData;
+import com.projectlucker.downloader.sourcedownloader.SourceDownloader;
+import com.projectlucker.downloader.sourcedownloader.SourceDownloaderFactory;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.stereotype.Component;
 

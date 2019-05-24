@@ -1,4 +1,4 @@
-package com.projectlucker.downloader.batch;
+package com.projectlucker.downloader.sourcedownloader;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
@@ -12,7 +12,7 @@ public class SourceDownloaderFactory {
 
     private final List<SourceDownloader> sources;
 
-    SourceDownloader get(String name) {
+    public SourceDownloader get(String name) {
         for (SourceDownloader source : sources) {
             if (Objects.equals(source.sourceName(), name)) {
                 return source;

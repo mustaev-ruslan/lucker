@@ -1,6 +1,7 @@
-package com.projectlucker.downloader.batch;
+package com.projectlucker.downloader.sourcedownloader;
 
 import com.projectlucker.downloader.entity.Chart;
+import com.projectlucker.downloader.model.DownloadData;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
