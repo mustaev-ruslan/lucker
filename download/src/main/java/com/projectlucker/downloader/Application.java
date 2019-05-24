@@ -26,9 +26,8 @@ public class Application {
     }
 
     @AfterTask
-    public void afterMe(TaskExecution taskExecution) {
-        System.out.println("After task");
-        taskExecution.setExitMessage("After task DOWNLOADEEERRR");
+    public void afterTask(TaskExecution taskExecution) {
+        taskExecution.setExitMessage("Готово!");
     }
 
 
