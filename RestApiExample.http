@@ -12,3 +12,7 @@ name=d1&properties=deployer.downloader.local.debugPort=9999, app.downloader.sour
 
 ###
 
+GET http://export.finam.ru/SPFB.SBRF-6.19_190416_190417.csv?market=14&em=495895&code=SPFB.SBRF-6.19&apply=0&df=16&mf=3&yf=2019&from=16.04.2019&dt=17&mt=3&yt=2019&to=17.04.2019&p=2&f=SPFB.SBRF-6.19_190416_190417&e=.csv&cn=SPFB.SBRF-6.19&dtf=1&tmf=1&MSOR=0&mstime=on&mstimever=1&sep=3&sep2=1&datf=1&at=1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0
+###
+
