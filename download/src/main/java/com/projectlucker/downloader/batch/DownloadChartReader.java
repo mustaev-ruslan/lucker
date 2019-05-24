@@ -1,6 +1,6 @@
 package com.projectlucker.downloader.batch;
 
-import com.projectlucker.downloader.DownloaderProperties;
+import com.projectlucker.downloader.configuration.DownloaderProperties;
 import com.projectlucker.downloader.entity.Chart;
 import com.projectlucker.downloader.model.DownloadData;
 import com.projectlucker.downloader.sourcedownloader.SourceDownloader;

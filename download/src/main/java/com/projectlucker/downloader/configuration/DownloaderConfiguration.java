@@ -1,4 +1,4 @@
-package com.projectlucker.downloader;
+package com.projectlucker.downloader.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
